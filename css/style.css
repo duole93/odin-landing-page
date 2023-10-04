@@ -1,7 +1,17 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    
 }
 
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    margin: 0 auto;
+    max-width: 960px;
+} 
 
 a {
     text-decoration: none;
@@ -11,57 +21,78 @@ a {
 .header{
     background-color: #1f2937;
     color: #f9faf8;
+    
 }
 
 .navigation-bar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
+
+.logo{
+    display:flex;
+    flex-shrink:0;
+}
+
 .nav-links{
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    gap: 24px; 
+    flex-shrink: 0;
 }
+
+
+
+
+
 .hero{
-    display:flex;
+    /* display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0; */
 }
 .welcome-text-main{
-    font-size: 48px;
+    /* font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #f9faf8; */
 }
 .hero-button{
 }
 
+.welcome-img{
+    /* width: 50%;
+    height: 300px;
+    background-color: beige; */
+}
+
+
+
+
+
 .info{
-    text-align: center;
+    /* text-align: center; */
 }
 .info-card-container{
-    display:flex;
+    /* display:flex;
     justify-content: center;
     align-items: center;
-    gap: 52px;
+    gap: 52px; */
 }
 .info-card{
-    max-width: 200px;
+    /* max-width: 200px; */
 }
 
 .quote{
-    padding: 52px;
-    background: #e5e7eb;
+    /* background: #e5e7eb; */
 }
 
 .call-action{
-    display:flex;
+    /* display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #3882f6; */
 }
 .footer{
-    text-align: center;
+    /* text-align: center; */
 }
