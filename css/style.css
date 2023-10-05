@@ -124,12 +124,21 @@ a {
     align-self: flex-end;
 }
 
+
+
 .call-action{
-    
-    /* display:flex;
+    padding: 80px 8px;
+}
+
+.action-box{
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882f6; */
+    flex:1;
+    padding: 16px 64px;
+    background: #3882F6;
+    color:#F9FAF8;
+
 }
 .footer{
     /* text-align: center; */
