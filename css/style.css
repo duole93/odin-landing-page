@@ -1,7 +1,10 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin:0;
-    
+    margin:0; 
+}
+
+*{
+    box-sizing: border-box;
 }
 
 .container{
@@ -99,10 +102,30 @@ a {
 }
 
 .quote{
-    /* background: #e5e7eb; */
+    background: #E5E7EB; 
+}
+
+.quote .container{
+    padding: 80px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.quote-author{
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
 }
 
 .call-action{
+    
     /* display:flex;
     justify-content: space-between;
     align-items: center;
