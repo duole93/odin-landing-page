@@ -21,6 +21,7 @@ a {
     color: #f9faf8;
 }
 
+/*--------------------HEADER-------------------*/
 .header{
     background-color: #1f2937;
     color: #f9faf8;
@@ -42,7 +43,7 @@ a {
 }
 
 
-
+/*--------------------HERO-------------------*/
 .hero{
     padding: 150px 8px;
     gap: 24px;
@@ -67,9 +68,7 @@ a {
 }
 
 
-
-
-
+/*--------------------INFORMATION-------------------*/
 .info{
     display:block;
     text-align: center;
@@ -101,6 +100,8 @@ a {
     flex-grow: 0;
 }
 
+
+/*------------------QUOTE/REVIEW-----------------*/
 .quote{
     background: #E5E7EB; 
 }
@@ -124,8 +125,7 @@ a {
     align-self: flex-end;
 }
 
-
-
+/*---------------CALL-TO-ACTION-------------------*/
 .call-action{
     padding: 80px 8px;
 }
@@ -140,6 +140,15 @@ a {
     color:#F9FAF8;
 
 }
+
+
+/*--------------------FOOTER-------------------*/
 .footer{
-    /* text-align: center; */
+   padding: 32px;
+   background-color: #1f2937;
+   color:#F9FAF8;
+}
+
+.footer .container{
+    justify-content: center;
 }
