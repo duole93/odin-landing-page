@@ -1,22 +1,26 @@
 # odin-landing-page
 
 Todo List
--figure out global spacing
+-figure out global styling - done
+    960px max width
+    center
+    8px padding for each container
 
-- heading
+- heading - almost done
+
 - hero
-    -padding?
+    
 - info
-    - padding?
+    
     - card size
     - 4 or 5 card?
 - quote
-    -padding
+  
 - call action
-    -padding
+  
 
 - footer
-    -padding
+  
 -find simple idea for website
     Serenity nail CN spa
 -find photo of the idea
