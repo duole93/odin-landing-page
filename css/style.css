@@ -18,7 +18,6 @@ body{
 
 a {
     text-decoration: none;
-    color: #f9faf8;
 }
 
 /*--------------------HEADER-------------------*/
@@ -107,8 +106,9 @@ a {
     padding: 8px;
     width: 200px;
 }
-.info-card-img{
-    background: gray;
+
+.info-card img{
+    object-fit:cover;
     width: 200px;
     height: 200px;
     flex-grow: 0;
