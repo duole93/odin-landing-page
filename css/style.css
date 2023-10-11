@@ -164,10 +164,10 @@ a {
 }
 
 /*---------------CALL-TO-ACTION-------------------*/
-.call-action{
+.location-hour{
     padding: 80px 8px;
 }
-
+/* 
 .action-box{
     display:flex;
     justify-content: space-between;
@@ -176,8 +176,10 @@ a {
     padding: 16px 64px;
     background: #3882F6;
     color:#F9FAF8;
+} */
+.location-hour .container div {
+    flex: 1;
 }
-
 
 /*--------------------FOOTER-------------------*/
 .footer{
