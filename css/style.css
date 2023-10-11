@@ -1,6 +1,7 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin:0; 
+    line-height: 1.5;
 }
 
 *{
@@ -22,16 +23,18 @@ a {
 
 /*--------------------HEADER-------------------*/
 .header{
-    background-color: #1f2937;
     color: #f9faf8;
-    /* background-image: url(../img/hero-wide.jpeg); */
     background-image:
-            linear-gradient(180deg, 
-              rgba(49, 49, 49, 0.9) 10%, 
-              rgba(121, 85, 7, 0.65)), url(../img/hero-wide.jpeg);
-    background-position:center;
+            linear-gradient(75deg, 
+              rgba(37, 19, 47, 0.9) 10%, 
+              rgba(121, 66, 7, 0.65)), url(../img/hero-img-1.jpeg);
+    background-position-y:60%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.nav-links a{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .logo{
@@ -76,11 +79,28 @@ a {
     z-index:-1;
 } */
 
+/*--------------------ABOUT US-------------------*/
+.about .container{
+    justify-content: space-between;
+    padding: 80px 8px;
+    gap: 32px;
+}
+
+.about-img{
+    width:400px;
+    height: 400px;
+    flex-grow: 0;
+    object-fit: cover;
+}
+
+
 
 /*--------------------INFORMATION-------------------*/
 .info{
     text-align: center;
     padding: 80px 8px;
+    background-color: #1f2937;
+    color: #E5E7EB;
 }
 .info .container{
     flex-direction: column;
@@ -91,11 +111,11 @@ a {
     font-weight: 900;
     margin-bottom: 80px;
 }
+
 .info-card-container{
     display:flex;
     flex:1;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 .info-card{
     display:flex;
@@ -112,6 +132,10 @@ a {
     width: 200px;
     height: 200px;
     flex-grow: 0;
+}
+.info button{
+    padding: 8px;
+    margin-top:80px;
 }
 
 
